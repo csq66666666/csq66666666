@@ -8,7 +8,7 @@
 <br/><br/>
 
 <!-- 大标题 + 副标题 -->
-<h1>陈世全</h1>
+<h1>陈世权</h1>
 <h3>Robotics · Control Engineering</h3>
 <sub>重庆邮电大学 控制工程硕士 &nbsp;·&nbsp; 重庆，中国</sub>
 
