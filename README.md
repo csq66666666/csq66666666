@@ -1,95 +1,75 @@
-"""生成 dist/status.svg：每次运行时从 GitHub API 取最新数据。"""
-import os, json, urllib.request
-from datetime import datetime, timezone, timedelta
+<div align="center">
 
-USER = os.environ.get("GH_USER", "csq66666666")
-TOKEN = os.environ.get("GITHUB_TOKEN")
+<br/>
 
+<!-- 头像：GitHub 会过滤 style 属性，圆角用 wsrv.nl 的 mask=circle 实现 -->
+<img src="https://wsrv.nl/?url=https://github.com/csq66666666.png&w=240&h=240&fit=cover&mask=circle" width="104" alt="avatar" />
 
-def api(path):
-    req = urllib.request.Request(
-        "https://api.github.com" + path,
-        headers={"Accept": "application/vnd.github+json", "User-Agent": "profile-status"},
-    )
-    if TOKEN:
-        req.add_header("Authorization", "Bearer " + TOKEN)
-    with urllib.request.urlopen(req, timeout=20) as r:
-        return json.load(r)
+<br/><br/>
 
+<!-- 大标题 + 副标题 -->
+<h1>陈世权</h1>
+<h3>Robotics · Control Engineering</h3>
+<sub>重庆邮电大学 控制工程硕士 &nbsp;·&nbsp; 重庆，中国</sub>
 
-def ago(iso):
-    dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
-    s = int((datetime.now(timezone.utc) - dt).total_seconds())
-    if s < 3600:
-        return f"{max(s // 60, 1)}m ago"
-    if s < 86400:
-        return f"{s // 3600}h ago"
-    return f"{s // 86400}d ago"
+<br/><br/>
 
+<!-- 打字机：只作为一行安静的点缀 -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=3500&pause=1200&color=8B949E&center=true&vCenter=true&width=460&height=30&lines=Building+robots+that+move+with+intent.;ROS+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+Embedded." alt="tagline" />
 
-user = api(f"/users/{USER}")
-stars, page = 0, 1
-while page <= 5:
-    repos = api(f"/users/{USER}/repos?per_page=100&type=owner&page={page}")
-    stars += sum(r.get("stargazers_count", 0) for r in repos)
-    if len(repos) < 100:
-        break
-    page += 1
+<br/><br/>
 
-try:
-    events = api(f"/users/{USER}/events/public?per_page=1")
-    last = ago(events[0]["created_at"]) if events else "-"
-except Exception:
-    last = "-"
+<!-- 链接：类似苹果的 “了解更多 ›” -->
+<a href="https://github.com/csq66666666"><b>GitHub ›</b></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:3211986038@qq.com"><b>联系我 ›</b></a>
 
-now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M UTC+8")
-metrics = [
-    (str(user.get("public_repos", 0)), "REPOSITORIES"),
-    (str(stars), "STARS EARNED"),
-    (str(user.get("followers", 0)), "FOLLOWERS"),
-    (last, "LAST ACTIVITY"),
-]
+<br/><br/>
 
-MONO = "'Fira Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
-SANS = "-apple-system, 'SF Pro Display', 'Helvetica Neue', 'Segoe UI', sans-serif"
+<img src="https://capsule-render.vercel.app/api?type=rect&height=1&color=30363D" width="60%" alt="" />
 
-cols = ""
-for i, (val, label) in enumerate(metrics):
-    cx = 135 + i * 210
-    cols += f"""  <text x="{cx}" y="96" text-anchor="middle" font-size="36" font-weight="700" fill="#fff" font-family="{SANS}">{val}</text>
-  <text x="{cx}" y="120" text-anchor="middle" font-size="11.5" letter-spacing="2.5" fill="#fff" fill-opacity="0.45" font-family="{MONO}">{label}</text>
-"""
+<br/>
 
-ecg = "M30 146"
-x = 30
-for bx in range(150, 860, 180):
-    ecg += f" H{bx} l8 -10 l9 20 l9 -28 l8 18"
-ecg += " H870"
+<!-- 技术栈：胶囊徽章，浅灰底，统一风格 -->
+<img src="https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=58A6FF" alt="Python" />
+<img src="https://img.shields.io/badge/ROS-161B22?style=flat-square&logo=ros&logoColor=58A6FF" alt="ROS" />
+<img src="https://img.shields.io/badge/C++-161B22?style=flat-square&logo=cplusplus&logoColor=58A6FF" alt="C++" />
+<img src="https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=58A6FF" alt="Linux" />
+<img src="https://img.shields.io/badge/Ubuntu-161B22?style=flat-square&logo=ubuntu&logoColor=58A6FF" alt="Ubuntu" />
+<img src="https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=58A6FF" alt="Git" />
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="900" height="170" role="img" aria-label="GitHub live status">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#141D3B"/></linearGradient>
-    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.7"/><stop offset="0.4" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#fff" stop-opacity="0.4"/></linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
-    <clipPath id="c"><rect width="900" height="170" rx="24"/></clipPath>
-  </defs>
-  <g clip-path="url(#c)">
-    <rect width="900" height="170" fill="url(#bg)"/>
-    <circle cx="450" cy="-30" r="200" fill="#3B82F6" opacity="0.18" filter="url(#glow)"/>
-    <circle cx="36" cy="32" r="5" fill="#4ADE80"/>
-    <circle cx="36" cy="32" r="5" fill="none" stroke="#4ADE80"><animate attributeName="r" values="5;14" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
-    <text x="52" y="36" font-size="12" letter-spacing="3" fill="#fff" fill-opacity="0.6" font-family="{MONO}">LIVE STATUS</text>
-    <text x="864" y="36" text-anchor="end" font-size="12" fill="#fff" fill-opacity="0.4" font-family="{MONO}">updated {now}</text>
-{cols}    <path d="{ecg}" fill="none" stroke="#fff" stroke-opacity="0.07" stroke-width="2"/>
-    <path d="{ecg}" pathLength="1000" fill="none" stroke="#58A6FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="170 830">
-      <animate attributeName="stroke-dashoffset" values="0;-1000" dur="5s" repeatCount="indefinite"/>
-    </path>
-  </g>
-  <rect x="0.5" y="0.5" width="899" height="169" rx="23.5" fill="none" stroke="url(#edge)"/>
-</svg>
-"""
+<br/><br/>
 
-os.makedirs("dist", exist_ok=True)
-with open("dist/status.svg", "w", encoding="utf-8") as fh:
-    fh.write(svg)
-print("status.svg written:", metrics)
+<img src="https://capsule-render.vercel.app/api?type=rect&height=1&color=30363D" width="60%" alt="" />
+
+<br/><br/>
+
+<!-- 数据卡片：深浅主题各一套，避免浅色模式下文字看不清 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=csq66666666&show_icons=true&hide_border=true&bg_color=00000000&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=csq66666666&show_icons=true&hide_border=true&bg_color=00000000&title_color=0969DA&icon_color=0969DA&text_color=24292F" />
+  <img height="150" alt="stats" src="https://github-readme-stats.vercel.app/api?username=csq66666666&show_icons=true&hide_border=true&bg_color=00000000" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=csq66666666&layout=compact&hide_border=true&bg_color=00000000&title_color=58A6FF&text_color=C9D1D9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=csq66666666&layout=compact&hide_border=true&bg_color=00000000&title_color=0969DA&text_color=24292F" />
+  <img height="150" alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=csq66666666&layout=compact&hide_border=true&bg_color=00000000" />
+</picture>
+
+<br/><br/>
+
+<!-- 贪吃蛇 -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg" />
+</picture>
+
+<br/><br/>
+
+<!-- 访问计数：放最底部，很小 -->
+<img src="https://komarev.com/ghpvc/?username=csq66666666&color=30363D&style=flat-square&label=VISITORS" alt="visitors" />
+
+<br/>
+
+</div>
