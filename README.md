@@ -73,3 +73,4 @@
 <br/>
 
 </div>
+[![GitHub Stats Terminal](https://github-stats-terminal-style-five.vercel.app/api/stats?username=csq66666666&theme=tokyonight&headerStyle=mac&hostname=csq.dev)](https://github.com/csq66666666)
