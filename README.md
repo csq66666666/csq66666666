@@ -71,6 +71,4 @@
 <img src="https://komarev.com/ghpvc/?username=csq66666666&color=30363D&style=flat-square&label=VISITORS" alt="visitors" />
 
 <br/>
-<br/>
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=csq66666666&theme=tokyonight&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&custom_title=Contribution%20Activity)
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=csq66666666&theme=github&hide_border=true&bg_color=00000000&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&custom_title=Contribution%20Activity" alt="Activity Graph" />
