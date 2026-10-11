@@ -1,0 +1,28 @@
+name: Generate Snake
+
+on:
+  # 每天自动运行一次 (UTC 0点)
+  schedule:
+    - cron: "0 0 * * *"
+  # 允许你手动点击按钮触发运行
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 生成贪吃蛇 SVG 图
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 2. 将生成好的图推送到 output 分支
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
