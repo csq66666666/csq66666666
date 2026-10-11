@@ -14,8 +14,8 @@
 
 <br/><br/>
 
-<!-- 打字机：只作为一行安静的点缀 -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=3500&pause=1200&color=8B949E&center=true&vCenter=true&width=460&height=30&lines=Building+robots+that+move+with+intent.;ROS+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+Embedded." alt="tagline" />
+<!-- 🎬 打字机：多行循环，安静的点缀 -->
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=400&size=18&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=460&height=30&lines=Building+robots+that+move+with+intent.;ROS+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+Embedded.;Control+theory+meets+real+hardware." alt="tagline" />
 
 <br/><br/>
 
@@ -26,7 +26,8 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=1&color=30363D" width="60%" alt="" />
+<!-- 🎬 流动分隔线（自托管 SVG，内部 SMIL 动画会被保留） -->
+<img src="https://raw.githubusercontent.com/csq66666666/csq66666666/main/assets/divider.svg" width="60%" alt="" />
 
 <br/>
 
@@ -40,7 +41,7 @@
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=1&color=30363D" width="60%" alt="" />
+<img src="https://raw.githubusercontent.com/csq66666666/csq66666666/main/assets/divider.svg" width="60%" alt="" />
 
 <br/><br/>
 
@@ -58,7 +59,12 @@
 
 <br/><br/>
 
-<!-- 贪吃蛇 -->
+<!-- 🎬 贡献活动曲线 -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=csq66666666&bg_color=00000000&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" width="90%" alt="activity graph" />
+
+<br/><br/>
+
+<!-- 🎬 贪吃蛇 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg" />
@@ -67,6 +73,12 @@
 
 <br/><br/>
 
+<!-- 🎬 底部动态波浪（文字闪烁） -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58A6FF,100:30363D&height=120&section=footer&text=Thanks%20for%20visiting&fontSize=24&fontColor=C9D1D9&animation=twinkling" width="100%" alt="footer" />
+
+<br/>
+
 <!-- 访问计数：放最底部，很小 -->
 <img src="https://komarev.com/ghpvc/?username=csq66666666&color=30363D&style=flat-square&label=VISITORS" alt="visitors" />
 
+</div>
