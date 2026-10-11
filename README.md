@@ -1,350 +1,95 @@
-
-<div align="center">
-
-<!-- ==================== HERO ==================== -->
-
-<br/>
-
-<a href="https://github.com/csq66666666">
-  <img
-    src="https://wsrv.nl/?url=github.com/csq66666666.png&w=240&h=240&fit=cover&mask=circle"
-    width="120"
-    alt="Chen Shiquan"
-  />
-</a>
-
-<br/><br/>
-
-<h1>陈世权 <sup>·</sup> CHEN SHIQUAN</h1>
-
-<p>
-  <strong>ROBOTICS · EMBEDDED SYSTEMS · CONTROL ENGINEERING</strong>
-</p>
-
-<p>
-  重庆邮电大学 · 控制工程硕士 · 重庆，中国
-</p>
-
-<br/>
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=16&duration=2600&pause=800&color=58A6FF&center=true&vCenter=true&repeat=true&width=580&height=40&lines=%3E+Robotics+Developer;%3E+Embedded+Systems+Engineer;%3E+Control+Engineering+Student;%3E+Exploring+ROS+2+%26+Autonomous+Systems;%3E+Turning+Ideas+Into+Engineering"
-  alt="Typing SVG"
-/>
-
-<br/>
-
-<p>
-  <em>Building robots that move with intent.</em>
-</p>
-
-<p>
-  <code>C/C++</code>
-  &nbsp;
-  <code>STM32</code>
-  &nbsp;
-  <code>ROS 2</code>
-  &nbsp;
-  <code>Python</code>
-  &nbsp;
-  <code>Linux</code>
-</p>
-
-<br/>
-
-<a href="https://github.com/csq66666666?tab=repositories">
-  <img
-    src="https://img.shields.io/badge/EXPLORE-REPOSITORIES-161B22?style=for-the-badge&logo=github&logoColor=58A6FF"
-    alt="Explore repositories"
-  />
-</a>
-&nbsp;
-<a href="mailto:3211986038@qq.com">
-  <img
-    src="https://img.shields.io/badge/CONTACT-EMAIL-161B22?style=for-the-badge&logo=gmail&logoColor=58A6FF"
-    alt="Contact email"
-  />
-</a>
-
-<br/><br/>
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=58A6FF&section=header"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<!-- ==================== ABOUT ==================== -->
-
-<h2>01 / ABOUT ME</h2>
-
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <h3>🤖 Robotics</h3>
-      <sub>Robot Control · Motion Systems</sub>
-    </td>
-    <td align="center" width="34%">
-      <h3>⚡ Embedded</h3>
-      <sub>MCU · Firmware · Communication</sub>
-    </td>
-    <td align="center" width="33%">
-      <h3>🎓 Control</h3>
-      <sub>Control Theory · Intelligent Systems</sub>
-    </td>
-  </tr>
-</table>
-
-<p>
-  Interested in the intersection of robotics, embedded systems,
-  and intelligent control.
-  <br/>
-  Focused on turning theoretical ideas into practical engineering solutions.
-</p>
-
-<br/>
-
-<!-- ==================== TECH STACK ==================== -->
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=30363D"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<h2>02 / TECH STACK</h2>
-
-<h3>Programming Languages</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/C-161B22?style=for-the-badge&logo=c&logoColor=58A6FF" alt="C"/>
-  <img src="https://img.shields.io/badge/C++-161B22?style=for-the-badge&logo=cplusplus&logoColor=58A6FF" alt="C++"/>
-  <img src="https://img.shields.io/badge/Python-161B22?style=for-the-badge&logo=python&logoColor=58A6FF" alt="Python"/>
-</p>
-
-<h3>Embedded & Robotics</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/STM32-161B22?style=flat-square&logo=stmicroelectronics&logoColor=58A6FF" alt="STM32"/>
-  <img src="https://img.shields.io/badge/CAN_Bus-161B22?style=flat-square&logoColor=58A6FF" alt="CAN Bus"/>
-  <img src="https://img.shields.io/badge/ROS_2-161B22?style=flat-square&logo=ros&logoColor=58A6FF" alt="ROS 2"/>
-  <img src="https://img.shields.io/badge/MQTT-161B22?style=flat-square&logoColor=58A6FF" alt="MQTT"/>
-</p>
-
-<h3>Development Environment</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=58A6FF" alt="Linux"/>
-  <img src="https://img.shields.io/badge/Ubuntu-161B22?style=flat-square&logo=ubuntu&logoColor=58A6FF" alt="Ubuntu"/>
-  <img src="https://img.shields.io/badge/Git-161B22?style=flat-square&logo=git&logoColor=58A6FF" alt="Git"/>
-  <img src="https://img.shields.io/badge/VS_Code-161B22?style=flat-square&logo=visualstudiocode&logoColor=58A6FF" alt="VS Code"/>
-</p>
-
-<br/>
-
-<!-- ==================== PROJECTS ==================== -->
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=30363D"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<h2>03 / SELECTED PROJECTS</h2>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 RoboMaster Engineering Robot</h3>
-
-      <p>
-        <sub>ROBOT CONTROL · EMBEDDED FIRMWARE</sub>
-      </p>
-
-      <p>
-        Electrical control and embedded development for an
-        engineering robot, involving CAN communication,
-        motor control, sensor feedback, and multi-mechanism coordination.
-      </p>
-
-      <p>
-        <img src="https://img.shields.io/badge/C%2FC++-161B22?style=flat-square&logo=cplusplus&logoColor=58A6FF" alt="C/C++"/>
-        <img src="https://img.shields.io/badge/CAN-161B22?style=flat-square&logoColor=58A6FF" alt="CAN"/>
-        <img src="https://img.shields.io/badge/RTOS-161B22?style=flat-square&logoColor=58A6FF" alt="RTOS"/>
-      </p>
-
-      <p>
-        <strong>Key Areas</strong>
-        <br/>
-        CAN Bus · Motor Control · Sensor Feedback · Task Scheduling
-      </p>
-    </td>
-
-    <td width="50%" valign="top">
-      <h3>⚡ STM32 Smart Water Purifier</h3>
-
-      <p>
-        <sub>EMBEDDED CONTROL · INTERNET OF THINGS</sub>
-      </p>
-
-      <p>
-        A smart water purifier controller integrating water-quality
-        sensing, OLED interaction, filter-life warnings, relay control,
-        Wi-Fi communication, and cloud-based monitoring.
-      </p>
-
-      <p>
-        <img src="https://img.shields.io/badge/STM32-161B22?style=flat-square&logo=stmicroelectronics&logoColor=58A6FF" alt="STM32"/>
-        <img src="https://img.shields.io/badge/MQTT-161B22?style=flat-square&logoColor=58A6FF" alt="MQTT"/>
-        <img src="https://img.shields.io/badge/OneNET-161B22?style=flat-square&logoColor=58A6FF" alt="OneNET"/>
-      </p>
-
-      <p>
-        <strong>Key Areas</strong>
-        <br/>
-        Sensor Acquisition · Relay Control · Wi-Fi · Cloud Monitoring
-      </p>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-<a href="https://github.com/csq66666666?tab=repositories">
-  <img
-    src="https://img.shields.io/badge/VIEW-ALL_PROJECTS-161B22?style=for-the-badge&logo=github&logoColor=58A6FF"
-    alt="View all projects"
-  />
-</a>
-
-<br/><br/>
-
-<!-- ==================== GITHUB STATS ==================== -->
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=30363D"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<h2>04 / GITHUB STATISTICS</h2>
-
-<a href="https://github.com/csq66666666">
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api?username=csq66666666&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&ring_color=58A6FF&include_all_commits=true"
-    alt="GitHub Statistics"
-  />
-</a>
-
-<a href="https://github.com/csq66666666">
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=csq66666666&layout=compact&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&langs_count=8"
-    alt="Top Languages"
-  />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/csq66666666">
-  <img
-    width="90%"
-    src="https://github-readme-streak-stats.herokuapp.com/?user=csq66666666&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9"
-    alt="GitHub Contribution Streak"
-  />
-</a>
-
-<br/><br/>
-
-<!-- ==================== CONTRIBUTION SNAKE ==================== -->
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=30363D"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<h2>05 / CONTRIBUTION ACTIVITY</h2>
-
-<p>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake-dark.svg"
-    />
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg"
-    />
-    <img
-      width="95%"
-      src="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg"
-      alt="GitHub Contribution Snake"
-    />
-  </picture>
-</p>
-
-<br/>
-
-<!-- ==================== CONTACT ==================== -->
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=30363D"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<h2>06 / CONNECT</h2>
-
-<p>
-  <a href="https://github.com/csq66666666">
-    <img src="https://img.shields.io/badge/GitHub-csq66666666-161B22?style=for-the-badge&logo=github&logoColor=58A6FF" alt="GitHub"/>
-  </a>
-  <a href="mailto:3211986038@qq.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-161B22?style=for-the-badge&logo=gmail&logoColor=58A6FF" alt="Email"/>
-  </a>
-</p>
-
-<br/>
-
-<img
-  src="https://komarev.com/ghpvc/?username=csq66666666&style=flat-square&color=58A6FF&label=PROFILE+VIEWS"
-  alt="Profile Views"
-/>
-
-<br/><br/>
-
-<!-- ==================== FOOTER ==================== -->
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=2&color=30363D"
-  width="75%"
-  alt=""
-/>
-
-<br/><br/>
-
-<p>
-  <sub>DESIGNED WITH PRECISION · BUILT WITH CURIOSITY</sub>
-</p>
-
-<p>
-  <sub>LEARNING · BUILDING · IMPROVING</sub>
-</p>
-
-<br/>
-
-</div>
+"""生成 dist/status.svg：每次运行时从 GitHub API 取最新数据。"""
+import os, json, urllib.request
+from datetime import datetime, timezone, timedelta
+
+USER = os.environ.get("GH_USER", "csq66666666")
+TOKEN = os.environ.get("GITHUB_TOKEN")
+
+
+def api(path):
+    req = urllib.request.Request(
+        "https://api.github.com" + path,
+        headers={"Accept": "application/vnd.github+json", "User-Agent": "profile-status"},
+    )
+    if TOKEN:
+        req.add_header("Authorization", "Bearer " + TOKEN)
+    with urllib.request.urlopen(req, timeout=20) as r:
+        return json.load(r)
+
+
+def ago(iso):
+    dt = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    s = int((datetime.now(timezone.utc) - dt).total_seconds())
+    if s < 3600:
+        return f"{max(s // 60, 1)}m ago"
+    if s < 86400:
+        return f"{s // 3600}h ago"
+    return f"{s // 86400}d ago"
+
+
+user = api(f"/users/{USER}")
+stars, page = 0, 1
+while page <= 5:
+    repos = api(f"/users/{USER}/repos?per_page=100&type=owner&page={page}")
+    stars += sum(r.get("stargazers_count", 0) for r in repos)
+    if len(repos) < 100:
+        break
+    page += 1
+
+try:
+    events = api(f"/users/{USER}/events/public?per_page=1")
+    last = ago(events[0]["created_at"]) if events else "-"
+except Exception:
+    last = "-"
+
+now = datetime.now(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M UTC+8")
+metrics = [
+    (str(user.get("public_repos", 0)), "REPOSITORIES"),
+    (str(stars), "STARS EARNED"),
+    (str(user.get("followers", 0)), "FOLLOWERS"),
+    (last, "LAST ACTIVITY"),
+]
+
+MONO = "'Fira Code', 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
+SANS = "-apple-system, 'SF Pro Display', 'Helvetica Neue', 'Segoe UI', sans-serif"
+
+cols = ""
+for i, (val, label) in enumerate(metrics):
+    cx = 135 + i * 210
+    cols += f"""  <text x="{cx}" y="96" text-anchor="middle" font-size="36" font-weight="700" fill="#fff" font-family="{SANS}">{val}</text>
+  <text x="{cx}" y="120" text-anchor="middle" font-size="11.5" letter-spacing="2.5" fill="#fff" fill-opacity="0.45" font-family="{MONO}">{label}</text>
+"""
+
+ecg = "M30 146"
+x = 30
+for bx in range(150, 860, 180):
+    ecg += f" H{bx} l8 -10 l9 20 l9 -28 l8 18"
+ecg += " H870"
+
+svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 170" width="900" height="170" role="img" aria-label="GitHub live status">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1020"/><stop offset="1" stop-color="#141D3B"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0.7"/><stop offset="0.4" stop-color="#fff" stop-opacity="0.08"/><stop offset="1" stop-color="#fff" stop-opacity="0.4"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="c"><rect width="900" height="170" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="900" height="170" fill="url(#bg)"/>
+    <circle cx="450" cy="-30" r="200" fill="#3B82F6" opacity="0.18" filter="url(#glow)"/>
+    <circle cx="36" cy="32" r="5" fill="#4ADE80"/>
+    <circle cx="36" cy="32" r="5" fill="none" stroke="#4ADE80"><animate attributeName="r" values="5;14" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="52" y="36" font-size="12" letter-spacing="3" fill="#fff" fill-opacity="0.6" font-family="{MONO}">LIVE STATUS</text>
+    <text x="864" y="36" text-anchor="end" font-size="12" fill="#fff" fill-opacity="0.4" font-family="{MONO}">updated {now}</text>
+{cols}    <path d="{ecg}" fill="none" stroke="#fff" stroke-opacity="0.07" stroke-width="2"/>
+    <path d="{ecg}" pathLength="1000" fill="none" stroke="#58A6FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="170 830">
+      <animate attributeName="stroke-dashoffset" values="0;-1000" dur="5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="169" rx="23.5" fill="none" stroke="url(#edge)"/>
+</svg>
+"""
+
+os.makedirs("dist", exist_ok=True)
+with open("dist/status.svg", "w", encoding="utf-8") as fh:
+    fh.write(svg)
+print("status.svg written:", metrics)
