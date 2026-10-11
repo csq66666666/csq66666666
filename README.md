@@ -1,66 +1,41 @@
-<!-- 1. 顶部动态渐变波浪 (颜色可以改) -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a1c71,50:d76d77,100:ffaf7b&height=200&section=header&text=Hello%20World!&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
-</div>
 
-<!-- 2. 动态打字机效果 (多种身份切换) -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Chen+Shiquan+%F0%9F%91%8B;M.S.+Control+Engineering+%40+CQUPT;ROS+%7C+Python+%7C+Linux+Developer;Welcome+to+my+GitHub+profile!" alt="Typing SVG" />
-  </a>
-</div>
-
-<!-- 3. 动态太空/像素背景的小组件 (Capsule Render 的另一种风格) -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=5&section=header" />
-</div>
+<!-- 1. 顶部：一行低调的打字机，只展示身份，不刷屏 -->
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=500&lines=Hi%2C+I'm+Chen+Shiquan.;M.S.+Control+Engineering+%40+CQUPT;ROS+%7C+Python+%7C+Linux." alt="Typing SVG" />
+</a>
 
 <br/>
 
-<!-- 4. 个人简介 (加入动态 Emoji) -->
-- 🔭 我目前正在做 **ROS 机器人控制相关的研究** 🦾
-- 🌱 我正在学习 **C++ / 机器人算法** 📚
-- 👯 我希望合作 **机器人开源项目** 🤝
-- 💬 可以问我关于 **ROS, Python, Linux** 💻
-- 📫 如何联系我: **你的邮箱@example.com** 📧
-- ⚡ 有趣的事实: **喜欢折腾硬件和软件的结合！** ⚡
+<!-- 2. 头像：圆形，加一个低调的蓝色描边 -->
+<img src="https://github.com/csq66666666.png" width="120" style="border-radius:50%; border: 2px solid #58A6FF;" alt="avatar" />
+
+<br/><br/>
+
+<!-- 3. 简介：精简到三行，不啰嗦 -->
+**控制工程硕士 · 机器人方向** <br/>
+专注于 **ROS / Python / 嵌入式** <br/>
+📍 重庆 · 中国
 
 <br/>
 
-<!-- 5. 动态技术栈徽章 (加入动画参数) -->
-### 🛠️ 我的技术栈
+<!-- 4. 技能：只用文字 + 圆点，不用彩色徽章，更高级 -->
+`Python` · `ROS` · `C++` · `Linux` · `Git` · `Ubuntu`
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,ros,linux,git,ubuntu,cpp,cmake,vscode&perline=8" />
-</div>
+<br/><br/>
 
-<br/>
+<!-- 5. 数据卡片：只留最核心的两张，去掉边框和背景 -->
+<img height="150em" src="https://github-readme-stats.vercel.app/api?username=csq66666666&show_icons=true&theme=transparent&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&bg_color=00000000" />
+<img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=csq66666666&layout=compact&theme=transparent&hide_border=true&title_color=58A6FF&text_color=C9D1D9&bg_color=00000000" />
 
-<!-- 6. GitHub 数据统计 (动态卡片 + 动态语言条) -->
-### 📊 我的 GitHub 数据
+<br/><br/>
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=csq66666666&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=csq66666666&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</div>
+<!-- 6. 联系方式：极简，只有两个链接 -->
+[**GitHub**](https://github.com/csq66666666) · [**Email**](mailto:3211986038@qq.com)
 
 <br/>
 
-<!-- 7. 动态连续贡献天数 (Streak Stats) -->
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=csq66666666&theme=tokyonight&hide_border=true&background=0D1117" />
-</div>
+<!-- 7. 底部：一行很小的访问计数，不喧宾夺主 -->
+<img src="https://komarev.com/ghpvc/?username=csq66666666&color=58A6FF&style=flat-square&label=VISITORS" alt="visitors" />
 
-<br/>
-
-<!-- 8. 动态贪吃蛇动画 (吃掉你的贡献图) -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake-dark.svg" alt="Snake animation" />
-</div>
-
-<br/>
-
-<!-- 9. 动态波浪底部 -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a1c71,50:d76d77,100:ffaf7b&height=120&section=footer" />
 </div>
