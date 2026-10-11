@@ -39,3 +39,5 @@
 <img src="https://komarev.com/ghpvc/?username=csq66666666&color=58A6FF&style=flat-square&label=VISITORS" alt="visitors" />
 
 </div>
+<br/>
+<img src="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake-dark.svg" alt="Snake animation" />
