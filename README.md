@@ -41,4 +41,8 @@
 <br/>
 
 <!-- 8. 贪吃蛇动画 (GIF版) -->
-<img src="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.gif" alt="Snake animation" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/csq66666666/csq66666666/output/github-snake.svg" />
+</picture>
