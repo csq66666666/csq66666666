@@ -68,7 +68,6 @@
 <br/><br/>
 
 <!-- 访问计数：放最底部，很小 -->
-<img src="https://komarev.com/ghpvc/?username=csq66666666&color=30363D&style=flat-square&label=VISITORS" alt="visitors" />
 
 <br/>
 
